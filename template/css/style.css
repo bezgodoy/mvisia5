@@ -1,3 +1,5 @@
+/*--------------------------------------- STYLE ---------------------------------------*/
+
 /* Images ok
 ----------------------------------------------------------------------------- */
 img {
@@ -805,7 +807,7 @@ h5 + .separator {
 .feature-box p {
   clear: both;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .feature-box:not(.shadow):hover .icon {
@@ -1914,11 +1916,6 @@ h5 + .separator {
   display: inline-block;
 }
 
-.clients img:hover {
-  margin: 0px auto;
-  opacity: 0.7;
-}
-
 .clients img {
   opacity: 1;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -2590,37 +2587,6 @@ h5 + .separator {
   }
 }
 
-.tp-bullets.preview4 .bullet,
-.tp-bullets.preview2 .bullet,
-.tp-bullets.horizontal .tp-bullet {
-  background: rgba(0, 0, 0, 0.6) !important;
-  border: none !important;
-  width: 10px !important;
-  height: 10px !important;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-left: 1px !important;
-  margin-right: 1px !important;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-}
-
-.tp-bullets.preview4 .bullet:hover,
-.tp-bullets.preview4 .bullet.selected,
-.tp-bullets.preview2 .bullet:hover,
-.tp-bullets.preview2 .bullet.selected,
-.tp-bullets.horizontal .tp-bullet:hover,
-.tp-bullets.horizontal .tp-bullet.selected {
-  background: #000000 !important;
-  border: none !important;
-  width: 10px !important;
-  height: 10px !important;
-}
-
 .tp-bannertimer {
   background-image: none;
   z-index: 21;
@@ -2913,3 +2879,826 @@ h5 + .separator {
     background: #000000;
   }
 }
+
+/*--------------------------------------- GREEN ---------------------------------------*/
+/* Contact Icons
+-------------------------------------------------
+-------------------------------------------------*/
+.text-default {
+  color: #F8D27E;
+}
+
+/* Layout
+-------------------------------------------------
+-------------------------------------------------*/
+.header-top.dark {
+  background-color: #303631;
+  border-bottom: 1px solid #242824;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+  .fixed-header-on .dark.header .dropdown-menu {
+    border: 1px solid #303631;
+  }
+}
+
+/* Components
+-------------------------------------------------
+-------------------------------------------------*/
+/*Icons
+---------------------------------- */
+.icon.default-bg {
+  background-color: transparent;
+}
+
+/*Pace (Page loader)
+---------------------------------- */
+.page-loader-1 .pace {
+  border: 1px solid #24a828;
+}
+
+.page-loader-1 .pace .pace-progress {
+  background: #24a828;
+}
+
+/* 6 Navigations
+-------------------------------------------------
+-------------------------------------------------*/
+/* 6.1 Light Version
+----------------------------------------------------------------------------- */
+.header .navbar-nav li .nav-link:focus,
+.header .navbar-nav li .nav-link:hover,
+.header .navbar-nav .show > .nav-link,
+.header .navbar-nav li .nav-link.show,
+.header .navbar-nav .active.show > .nav-link,
+.header .navbar-nav li.show .nav-link.active {
+  color: #24a828;
+}
+
+.header .navbar-nav .active > .nav-link,
+.header .navbar-nav li .nav-link.active {
+  color: #24a828;
+}
+
+.header .navbar-nav li li a:focus,
+.header .navbar-nav li li a:hover,
+.header .navbar-nav li .show > a,
+.header .navbar-nav li li a.show,
+.header .navbar-nav li .active > a,
+.header .navbar-nav li li a.active {
+  color: #1f9123;
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width: 991px) {
+  .header .navbar-nav .active .nav-link,
+  .header .navbar-nav .active .nav-link:hover,
+  .header .navbar-nav .active .nav-link:focus {
+    color: #1f9123;
+  }
+  /* first level item hover and focus states */
+  .header .navbar-nav li > a:hover,
+  .header .navbar-nav li > a:focus,
+  .header .navbar-nav .active > a,
+  .header .navbar-nav .active > a:hover,
+  .header .navbar-nav .active > a:focus {
+    color: #1f9123;
+  }
+  /* second level item on hover/focus */
+  .header .navbar-nav .show .dropdown-menu > li > a:hover,
+  .header .navbar-nav .show .dropdown-menu > li > a:focus {
+    color: #1f9123;
+  }
+}
+
+/* Main Slideshow
+-------------------------------------------------
+-------------------------------------------------*/
+.tp-bannertimer {
+  background-color: rgba(36, 168, 40, 0.8);
+}
+
+
+/*--------------------------------------- TYPOGRAPHY ---------------------------------------*/
+/* 1 Typography
+----------------------------------------------------------------------------- */
+/*Fonts
+---------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .navbar-nav {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-font {
+  font-family: "Pacifico", cursive, sans-serif;
+}
+
+/*Typography
+---------------------------------- */
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4666666667;
+  color: #606060;
+  background-color: #ffffff;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  line-height: 1.2;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+h4.page-subtitle {
+  margin-bottom: 2.0rem;
+}
+
+h2.title {
+  font-size: 2.5rem;
+}
+
+h4.title {
+  font-size: 1.2rem;
+  margin-left: 50px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6 {
+  color: #ffffff;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #ffffff;
+}
+
+.dark h1 a,
+.dark h2 a,
+.dark h3 a,
+.dark h4 a,
+.dark h5 a,
+.dark h6 a {
+  color: #ffffff;
+}
+
+.dark .footer h1,
+.dark .footer h2,
+.dark .footer h3,
+.dark .footer h4,
+.dark .footer h5,
+.dark .footer h6 {
+  color: #999999;
+}
+
+.dark .footer h1 a,
+.dark .footer h2 a,
+.dark .footer h3 a,
+.dark .footer h4 a,
+.dark .footer h5 a,
+.dark .footer h6 a {
+  color: #999999;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h2.logo-font {
+  text-transform: none;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  h1.extra-large {
+    font-size: 130px;
+    font-weight: 700;
+  }
+}
+
+.mobile-caption {
+  font-size: 28px !important;
+  line-height: 35px !important;
+  font-weight: 300;
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media screen and (max-width: 767px) {
+  h1.extra-large {
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+.page-title {
+  margin-top: 0;
+}
+
+/* Medium devices (desktops, tablets, 992px and up) */
+@media (min-width: 992px) {
+  .title {
+    margin-top: 0;
+  }
+}
+
+.sidebar .title {
+  margin-top: 3px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p.large {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+.link-dark {
+  color: #333333;
+  text-decoration: none !important;
+}
+
+.link-dark:hover {
+  color: #333333;
+  text-decoration: underline !important;
+}
+
+.dark .footer .link-dark {
+  color: #777777;
+  text-decoration: none !important;
+}
+
+.dark .footer .link-dark:hover {
+  color: #777777;
+  text-decoration: underline !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+/*--------------------------------------- ANIMATIONS ---------------------------------------*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    -ms-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDownSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
+}
+
+
+
+/* Buttons
+---------------------------------- */
+.btn {
+    font-weight: 400;
+}
+
+.btn-bordered-white, .btn-bordered-white:hover {
+    border: 1.5px solid #ffffff;
+    border-radius: 50px;
+    background: white;
+    color: #1e231e;
+}
+
+.btn-bordered-green {
+    border: 1.5px solid #0b8743;
+    border-radius: 50px;
+    background: #0b8743;
+    color: white;
+}
+
+.btn-bordered-green:hover {
+    border: 1.5px solid #007f3e;
+    border-radius: 50px;
+    background: #007f3e;
+    color: white;
+}
+
+
+/* Wrappers
+---------------------------------- */
+.special-container {
+    margin: 0 25px 0 25px;
+}
+
+.img-container {
+    border-radius: 3px 3px 0 0;
+}
+
+.video-case {
+    margin: 25px;
+}
+
+.clients-container {
+    overflow: hidden;
+}
+
+/* Index
+---------------------------------- */
+.title-about {
+    font-weight: 500;
+}
+
+h3.news-title {
+    font-weight: 500;
+}
+
+.news-body {
+    font-weight: 200;
+}
+
+
+/* Page About
+---------------------------------- */
+.logo-prize {
+    height: 75px;
+}
+
+.expertises {
+    font-size: 0.95rem;
+}
+
+h4.card-title {
+    font-weight: 500;
+}
+
+h3.card-title {
+    font-weight: 400;
+    color: white;
+}
+
+.separator-custom {
+    margin-bottom: 15px;
+}
+
+
+/* Contact Banner
+---------------------------------- */
+.banner .list-inline-item{
+    font-size: 1.0rem;
+}
+
+.bigger {
+    font-size: 1.1rem;
+}
+
+.small {
+    line-height: 0.9rem;
+}
+
+
+/* Icons
+---------------------------------- */
+.feature-box-2 .icon.icon-benefit {
+    top: -10px;
+    left: 5px;
+}
+
+.icon-right-open {
+    color: #007F3D;
+}
+
+.icon-circle-custom {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: 12px;
+    height: 35px;
+}
+
+.icon-circle-benefits {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.icon-small {
+    width: 45px; 
+}
+
+.icon-angle-green {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007f3e;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+/* Intern Typography
+---------------------------------- */
+h3.title-subsection {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+p.subtitle {
+    font-size: 1.0rem;
+    color: #606060;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Page Cases
+---------------------------------- */
+.how-works-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.feature-box p.how-works-text {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+
+/* Page Technologies
+---------------------------------- */
+.text-call {
+    font-size: 1.1rem;
+    color: #2f2f2f;
+}
+
+.left.slick-arrow {
+    position: relative;
+    top: 125px;
+    z-index: 1000;
+    font-size: 30px;
+    text-align: left;
+}
+
+.right.slick-arrow {
+    position: relative;
+    top: -110px;
+    z-index: 1000;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width: 767px) {
+    .left.slick-arrow {
+        top: 150px;
+    }
+    
+    .right.slick-arrow {
+        top: -150px;
+    }
+  }
+
+
+/*--------------------------------------- CUSTOM ---------------------------------------*/
+/* Buttons
+---------------------------------- */
+.btn {
+  font-weight: 400;
+}
+
+.btn-bordered-white, .btn-bordered-white:hover {
+  border: 1.5px solid #ffffff;
+  border-radius: 50px;
+  background: white;
+  color: #1e231e;
+}
+
+.btn-bordered-green {
+  border: 1.5px solid #0b8743;
+  border-radius: 50px;
+  background: #0b8743;
+  color: white;
+}
+
+.btn-bordered-green:hover {
+  border: 1.5px solid #007f3e;
+  border-radius: 50px;
+  background: #007f3e;
+  color: white;
+}
+
+
+/* Wrappers
+---------------------------------- */
+.special-container {
+  margin: 0 25px 0 25px;
+}
+
+.img-container {
+  border-radius: 3px 3px 0 0;
+}
+
+.video-case {
+  margin: 25px;
+}
+
+.clients-container {
+  overflow: hidden;
+}
+
+/* Index
+---------------------------------- */
+.title-about {
+  font-weight: 500;
+}
+
+h3.news-title {
+  font-weight: 500;
+}
+
+.news-body {
+  font-weight: 200;
+}
+
+
+/* Page About
+---------------------------------- */
+.logo-prize {
+  height: 75px;
+}
+
+.expertises {
+  font-size: 0.95rem;
+}
+
+h4.card-title {
+  font-weight: 500;
+}
+
+h3.card-title {
+  font-weight: 400;
+  color: white;
+}
+
+.separator-custom {
+  margin-bottom: 15px;
+}
+
+
+/* Contact Banner
+---------------------------------- */
+.banner .list-inline-item{
+  font-size: 1.0rem;
+}
+
+.bigger {
+  font-size: 1.1rem;
+}
+
+.small {
+  line-height: 0.9rem;
+}
+
+
+/* Icons
+---------------------------------- */
+.feature-box-2 .icon.icon-benefit {
+  top: -10px;
+  left: 5px;
+}
+
+.icon-right-open {
+  color: #007F3D;
+}
+
+.icon-circle-custom {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  margin-left: 12px;
+  height: 35px;
+}
+
+.icon-circle-benefits {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: 20px;
+  height: 40px;
+}
+
+.icon-small {
+  width: 45px; 
+}
+
+.icon-angle-green {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007f3e;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+/* Intern Typography
+---------------------------------- */
+h3.title-subsection {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+p.subtitle {
+  font-size: 1.0rem;
+  color: #606060;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Page Cases
+---------------------------------- */
+.how-works-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.feature-box p.how-works-text {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+
+/* Page Technologies
+---------------------------------- */
+.text-call {
+  font-size: 1.1rem;
+  color: #2f2f2f;
+}
+
+.left.slick-arrow {
+  position: relative;
+  top: 125px;
+  z-index: 1000;
+  font-size: 30px;
+  text-align: left;
+}
+
+.right.slick-arrow {
+  position: relative;
+  top: -110px;
+  z-index: 1000;
+  font-size: 30px;
+  text-align: right;
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width: 767px) {
+  .left.slick-arrow {
+      top: 150px;
+  }
+  
+  .right.slick-arrow {
+      top: -150px;
+  }
+}
+
